@@ -3,7 +3,7 @@ import { UserService } from '../service/user.service';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './interview.component.html'
+  templateUrl: '../interview/interview.component.html'
 })
 export class ModifyUserComponent {
   users = [];
