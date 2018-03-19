@@ -2,8 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 
-import { InterviewComponent } from './interview.component';
-import { UserService } from './user.service';
+import { InterviewComponent } from './interview/interview.component';
+import { UserService } from './service/user.service';
 
 
 @NgModule({
